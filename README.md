@@ -1,3 +1,2 @@
 # ProRes
-## Live Link : 
-## proresclub.github.io
+## Live Link : ## https://proresclub.github.io
