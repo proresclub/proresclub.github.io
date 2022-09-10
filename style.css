@@ -1,24 +1,248 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-family: 'Poppins', sans-serif;
-  }
-
-.content h1{
-    font-size : 3rem;
-  }
-
-.content p{
-    font-size : 1.5rem;
-    text-aiign : center;
+body{
+  -webkit-font-smoothing: antialiased;
+  /* font-family: Clarity City,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Roboto,Ubuntu,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; */
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+  font-weight: 400;
 }
+
+a{
+  letter-spacing: .02em;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+h1,h2{
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p{
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.885);
+}
+
+img{
+  width: 100%;
+}
+
+.navbar{
+  background-color: #0478ede3;
+  color: #ffff;
+  height: 90px;  
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar a{
+
+  padding: 10px;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.1em;
+}
+
+.navbar a:hover{
+  border-bottom: 2px #fff solid;
+}
+
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.button button{
+  padding: 0.8em;
+  border-radius: 0.35em;
+  background:#047aed;
+  outline: none;
+  border: none;
+  margin: 1em 0;
+}
+
+.button a{
+  font-weight: 700;
+  font-size: 1.3em;
+  color: white;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo{
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+.club-main{
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.club-details{
+  padding: 40px 0 20px;
+}
+
+.club h1{
+    font-size: 4em;
+}
+
+.club p{
+  margin-right: 0em;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .02em;
+}
+
+.span{
+  color: #047aed;
+}
+
+.image{
+  width: 80%;
+}
+
+.club-info{
+  /* background-color: rgb(238, 229, 229); */
+  padding: 80px 0 50px;
+}
+
+.club-info-head{
+  font-size: 2.5em;
+  text-decoration-line: underline;
+  text-decoration-style: "solid";
+  text-decoration-color: rgba(4,120,237,1);
+  text-decoration-thickness: 8px;
+  
+}
+
+.club-info-det{
+  padding: 1em 15em;
+}
+
+.club-info-det p{
+  font-size: 1.2em;
+}
+
+.features{
+  /* background-color: rgb(238, 229, 229); */
+  padding: 80px 0 40px;
+}
+
+.features-head{
+  font-size: 2.5em;
+  text-decoration-line: underline;
+  text-decoration-style: "solid";
+  text-decoration-color: rgba(4,120,237,1);
+  text-decoration-thickness: 8px; 
+  padding-bottom: 1em;
+}
+.features-list{
+    display: flex;
+    padding: 3em;
+    gap: 1.5em;
+    justify-content: space-between;
+}
+
+.features-menu{
+  /* background: #047aed; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+}
+
+.feature-logo i{
+  padding:1.0em 1em 1em 1em;
+  border-radius: 8em;
+  font-size: 2.3em;
+  color: white;
+
+  background-color: #047aed;
+}
+
+.feature-det p{
+  padding: 1.2em;
+  color: rgba(13, 13, 13, 0.921);
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.team-head{
+  font-size: 2.3em;
+  text-decoration-line: underline;
+  text-decoration-style: "solid";
+  text-decoration-color: rgba(4,120,237,1);
+  text-decoration-thickness: 8px; 
+  padding-bottom: 1em;
+}
+
+.team{
+  padding: 0px 0 50px; 
+}
+
+.team-list{
+  padding-top: 3em;
+  display: flex;
+}
+
+.team-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.team-details{
+  background: rgba(7, 7, 7, 0.553);
+  min-width: 70%;
+  margin-top: -6em;
+}
+
+.team-details h1{
+  color: white;
+  font-size: 1.6em;
+  margin-bottom: -0.3em;
+}
+
+.team-details p{
+  color:white;
+  font-size: 0.9em;
+}
+
+.team-img img{
+  max-width: 70%;
+  flex-shrink: 0;
+}
+
+.team-det{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
