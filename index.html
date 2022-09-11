@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProRes</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -24,13 +25,13 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body id="theBody">
     <div class="navbar navbar-expand-lg navbar-dark sticky-top bg-primary">
       <div class="container-fluid">
         <!-- <span class="navbar-brand mb-0 h1">ProRes</span> -->
         <a class="navbar-brand" href="#">
-          <img src="logo.png" alt="logo" height="100h">
-        </a>    
+          <img src="logo.png" alt="logo" height="100h" />
+        </a>
         <!-- <a class="navbar-brand" href="/index.html"></a> -->
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -39,7 +40,7 @@
             </li>
             <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="about.html">About us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Blogs</a>
@@ -63,9 +64,8 @@
             ProRes is the club where students can gain skills by doing projects
             and Our Aim is to convert Reasearch Papers into a Product.
           </p>
-          
-            <button type="button" class="btn btn-primary">Know More</button>
-          
+
+          <button type="button" class="btn btn-primary">Know More</button>
         </div>
         <div class="image">
           <img src="./undraw_Thought_process_re_om58.png" alt="" />
@@ -165,7 +165,8 @@
               </div>
               <p class="card-footer text-muted">Club Lead</p>
             </div>
-          </div><div class="col">
+          </div>
+          <div class="col">
             <div class="card text-center" style="width: 18rem">
               <img
                 class="card-img-top"
@@ -186,7 +187,8 @@
               </div>
               <p class="card-footer text-muted">Club Lead</p>
             </div>
-          </div><div class="col">
+          </div>
+          <div class="col">
             <div class="card text-center" style="width: 18rem">
               <img
                 class="card-img-top"
@@ -207,7 +209,8 @@
               </div>
               <p class="card-footer text-muted">Club Lead</p>
             </div>
-          </div><div class="col">
+          </div>
+          <div class="col">
             <div class="card text-center" style="width: 18rem">
               <img
                 class="card-img-top"
@@ -228,7 +231,8 @@
               </div>
               <p class="card-footer text-muted">Club Lead</p>
             </div>
-          </div><div class="col">
+          </div>
+          <div class="col">
             <div class="card text-center" style="width: 18rem">
               <img
                 class="card-img-top"
@@ -253,10 +257,19 @@
         </div>
       </div>
     </section>
+    <div id="footer" class="container"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>
+      $.get("footer.html", function (data) {
+        var filecontent = data;
+        console.log(filecontent); // filecontent var should be having my file content data
+        document.getElementById("footer").innerHTML = filecontent;
+      });
+    </script>
   </body>
 </html>
