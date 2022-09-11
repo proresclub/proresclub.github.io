@@ -20,16 +20,6 @@ a{
   color: rgb(0, 0, 0);
 }
 
-ul{
-  text-decoration: none;
-  list-style: none;
-}
-
-h1,h2{
-  font-weight: 800;
-  line-height: 1.2;
-  margin: 10px 0;
-}
 
 p{
   margin: 10px 0;
@@ -41,8 +31,8 @@ img{
 }
 
 .navbar{
-  background-color: #0478ede3;
-  color: #ffff;
+  /* background-color: #0478ede3; */
+  /* color: #ffff; */
   height: 90px;  
 }
 
@@ -50,24 +40,24 @@ img{
   display: flex;
 }
 
-.navbar a{
+/* .navbar a{
 
   padding: 10px;
   color: #fff;
   margin: 0 10px;
   font-size: 1.1em;
-}
-
+} */
+/* 
 .navbar a:hover{
   border-bottom: 2px #fff solid;
-}
-
+} */
+/* 
 .container{
   max-width: 1300px;
   margin: 0 auto;
   overflow: auto;
   padding: 0 40px;
-}
+} */
 
 .button button{
   padding: 0.8em;
