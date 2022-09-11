@@ -66,6 +66,7 @@ img{
   outline: none;
   border: none;
   margin: 1em 0;
+  text-decoration:none;
 }
 
 .button a{
