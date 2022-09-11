@@ -58,10 +58,11 @@
       style="
         background: url('sectionBGs/background_1.png');
         height: calc(100vh - 90px);
+        
       "
     >
       <div class="container club-main">
-        <div class="club animate__animated animate__fadeInLeft">
+        <div class="club animate__animated animate__fadeInLeft " style="padding: 0;z-index: 2;">
           <h1>
             Stand Out <br />
             from the <br /><span class="span">Crowd.</span>
@@ -73,9 +74,11 @@
 
           <a href="about.html">Know More</a>
         </div>
-        <div class="image animate__animated animate__fadeInUp">
-          <img src="./undraw_Thought_process_re_om58.png" alt="" />
-        </div>
+          <img style="position:absolute;height: calc(100vh - 90px - 5em); width: fit-content; right: 5%;z-index: 0;" src="sectionBGs/purpleWedge.png" class="club animate__animated animate__fadeInUp" alt="wedge">
+          <!-- <div style="padding: 0;height: calc(100vh - 90px - 4em);background:url(sectionBGs/purpleWedge.png) no-repeat; text-align: right;z-index: 0;"> -->
+          <!-- <img width="100%" class="image animate__animated animate__fadeInUp" src="undraw_Thought_process_re_om58.png"  alt="" /> -->
+        <!-- </div> -->
+        
       </div>
     </section>
     <section
@@ -85,6 +88,7 @@
         padding: 10px;
         padding-top: 50px;
 		min-height: 50vh;
+    z-index: 3;
       "
     >
       <div class="container club-in">
