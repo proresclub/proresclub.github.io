@@ -25,7 +25,7 @@
     />
   </head>
   <body>
-    <div class="navbar navbar-expand-lg navbar-dark sticky-top bg-primary">
+    <div class="navbar navbar-expand-lg navbar-dark sticky-top bg-purple">
       <div class="container-fluid">
         <!-- <span class="navbar-brand mb-0 h1">ProRes</span> -->
         <a class="navbar-brand" href="#">
@@ -55,8 +55,8 @@
     </div>
 
     <div class="card text-center">
-        <div class="card-body">
-          <img class="customSizing" src="logo.png" alt="logo" />
+      <div class="card-body">
+        <img class="customSizing" src="logo.png" alt="logo" />
         <h1 class="card-title">Pro Res</h1>
         <p class="card-text">
           ProRes is the club where students can gain skills by doing projects
@@ -84,16 +84,16 @@
     <div id="footer" class="container"></div>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script>
-        $.get("footer.html", function (data) {
-          var filecontent = data;
-          console.log(filecontent); // filecontent var should be having my file content data
-          document.getElementById("footer").innerHTML = filecontent;
-        });
-      </script>
+      $.get("footer.html", function (data) {
+        var filecontent = data;
+        console.log(filecontent); // filecontent var should be having my file content data
+        document.getElementById("footer").innerHTML = filecontent;
+      });
+    </script>
   </body>
   <style>
-    .customSizing{
-        max-width: 500px;
+    .customSizing {
+      max-width: 500px;
     }
   </style>
 </html>

@@ -36,55 +36,11 @@ img{
   height: 90px;  
 }
 
-.navbar ul{
-  display: flex;
+.bg-purple{
+  background-color: blueviolet;
 }
-
-/* .navbar a{
-
-  padding: 10px;
-  color: #fff;
-  margin: 0 10px;
-  font-size: 1.1em;
-} */
-/* 
-.navbar a:hover{
-  border-bottom: 2px #fff solid;
-} */
-/* 
-.container{
-  max-width: 1300px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-} */
-/* 
-.button button{
-  padding: 0.8em;
-  border-radius: 0.35em;
-  background:#047aed;
-  outline: none;
-  border: none;
-  margin: 1em 0;
-  text-decoration:none;
-}
-
-.button a{
-  font-weight: 700;
-  font-size: 1.3em;
-  color: white;
-} */
-
-.flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
-.logo{
-  font-size: 2.3em;
-  font-weight: 700;
+.bg-grey{
+  background-color: #cbcbcb;
 }
 
 .club-main{
@@ -109,24 +65,20 @@ img{
   letter-spacing: .02em;
 }
 
-.span{
-  color: #047aed;
-}
 
 .image{
   width: 80%;
 }
 
 .club-info{
-  /* background-color: rgb(238, 229, 229); */
   padding: 80px 0 50px;
 }
 
-.club-info-head{
+.head-decor{
   font-size: 2.5em;
   text-decoration-line: underline;
   text-decoration-style: "solid";
-  text-decoration-color: rgba(4,120,237,1);
+  text-decoration-color: rgb(97, 4, 237);
   text-decoration-thickness: 8px;
   
 }
@@ -144,20 +96,12 @@ img{
   padding: 80px 0 40px;
 }
 
-.features-head{
-  font-size: 2.5em;
-  text-decoration-line: underline;
-  text-decoration-style: "solid";
-  text-decoration-color: rgba(4,120,237,1);
-  text-decoration-thickness: 8px; 
-  padding-bottom: 1em;
-}
 .features-list{
     display: flex;
     padding: 3em;
     gap: 1.5em;
     justify-content: space-between;
-}
+} 
 
 .features-menu{
   /* background: #047aed; */
@@ -172,7 +116,7 @@ img{
   font-size: 2.3em;
   color: white;
 
-  background-color: #047aed;
+  background-color: #9004ed;
 }
 
 .feature-det p{
@@ -181,59 +125,3 @@ img{
   font-weight: 800;
   font-size: 1.1em;
 }
-
-.team-head{
-  font-size: 2.3em;
-  text-decoration-line: underline;
-  text-decoration-style: "solid";
-  text-decoration-color: rgba(4,120,237,1);
-  text-decoration-thickness: 8px; 
-  padding-bottom: 1em;
-}
-
-.team{
-  padding: 0px 0 50px; 
-}
-
-.team-list{
-  padding-top: 3em;
-  display: flex;
-}
-
-.team-img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  flex-direction: column;
-}
-
-.team-details{
-  background: rgba(7, 7, 7, 0.553);
-  min-width: 70%;
-  margin-top: -6em;
-}
-
-.team-details h1{
-  color: white;
-  font-size: 1.6em;
-  margin-bottom: -0.3em;
-}
-
-.team-details p{
-  color:white;
-  font-size: 0.9em;
-}
-
-.team-img img{
-  max-width: 70%;
-  flex-shrink: 0;
-}
-
-.team-det{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-
