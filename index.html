@@ -15,10 +15,20 @@
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 	<link href="styles/ihover.css" rel="stylesheet">
+	<script>var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		  var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navbar").style.top = "0";
+		  } else {
+			document.getElementById("navbar").style.top = "-100px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}</script>
 </head>
 
 <body id="theBody">
-	<div class="navbar navbar-expand-lg navbar-light sticky-top bg-grey animate__animated animate__fadeInDown">
+	<div id="navbar"class="navbar navbar-expand-lg navbar-light sticky-top bg-white animate__animated animate__fadeInDown">
 		<div class="container-fluid">
 			<!-- <span class="navbar-brand mb-0 h1">ProRes</span> -->
 			<a class="navbar-brand animate__animated animate__fadeInDown" style="padding: 0;" href="#">
@@ -47,8 +57,9 @@
 	</div>
 
 	<section class="club-details" style="
-        background: url('sectionBGs/background_1.png');
-        height: calc(115vh - 90px);
+        height: calc(120vh - 100px);
+		padding-left: 10%
+	;
       ">
 		<div class="container club-main">
 			<div class="club animate__animated animate__fadeInLeft" style="padding: 0; z-index: 2">
@@ -63,21 +74,21 @@
 
 			<button style="height: auto;"class="button">Recent works</button>
 			</div>
-			<div class="ih-item circle effect3 top_to_bottom">
+			
+			<!-- <div class="ih-item circle effect3 top_to_bottom">
 				<a href="#">
 					<div class="img"><img style="position: absolute;width: 400px;height: fit-content; right: 50%;top: 40%;"src="sectionBGs/Justlogo.png" alt="img"></div>
 				<div class="info">
 				  <h3>Heading here</h3>
 				  <p>Description goes here</p>
-				</div></a></div>
+				</div></a></div> -->
 			<img style="
             position: absolute;
-            height: calc(110vh - 100px - 5em);
             width: fit-content;
-            right: 0%;
-			bottom: 1%;
+            top: 0%;
+			right: 0%;
             z-index: 0;
-			" src="sectionBGs/Polygon 1.png" class="club animate__animated animate__fadeInUp" alt="wedge" />
+			" src="sectionBGs/Group 148.png" class="club animate__animated animate__fadeInUp" alt="wedge" />
 					  
 			<!-- <img class="animate__animated animate__fadeInLeft"
 				style="width:30vw;height: fit-content;z-index: 1;" src="newjustlogo.png" alt="Logo"> -->
@@ -91,19 +102,19 @@
 		
 	</section> -->
 	<section class="text-white text-center" style="
-        background: url('sectionBGs/background_2.png');
+        background: url('sectionBGs/');
         padding: 10px;
         padding-top: 50px;
         min-height: 100vh;
         z-index: 3;
       ">
-		<div class="container club-in">
+		<div class="container club-in animate__animated animate__fadeInUp rounded row-cols-2">
 			<!-- <h1 class="head-decor text-center">Who we are ??</h1> -->
 			<!-- <p> -->
 			<!-- <br> -->
 			<p>
-			<h3 class=" text-center"> Our Objectives and Mission </h3>
-			<ul style="list-style-type:none;">
+			<h3 class=" " style=" color: black;"> Who we are ? </h3>
+			<ul style="list-style-type:none; color: black;">
 				<li> Developing product based research culture among students of Reva university.</li>
 				<li> Bridging the gap between theoretical and reality by encouraging research culture among students.
 				</li>
@@ -120,7 +131,7 @@
 
 			</p>
 			<img class="animate__animated animate__fadeInUp rounded"
-				style="width:449px;height: 213px; align-self: center;z-index: 1;" src="revaXprores.png"
+				style="width:400px;height: 400px; align-self:flex-end;z-index: 1;" src="sectionBGs/who we are.jpeg"
 				alt="revaXprores">
 
 		</div>
@@ -129,7 +140,7 @@
 
 	<section class="features">
 		<div class="container club-featureas text-center">
-			<div class="head-decor text-center">
+			<div class=" text-center">
 				<h1>Features</h1>
 			</div>
 			<div class="features-list animate__animated animate__bounce">
