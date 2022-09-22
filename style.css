@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.container{
+    max-width: 71%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+  }
+  
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.0rem 0rem; 
+    position: sticky;
+    top: 0;
+}
+
+#navb{
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+
+.window-scroll{
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+
+.links{
+    margin: auto 0;
+}
+
+.links ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 100%;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(12, 9, 39);
+}
+
+.logo h3{
+    font-size: 1.5rem;
+}
+
+.logo img{
+    width: 60%;
+}
+
+.links a{
+    padding: 0rem 1rem;;
+}
+
+.links a:hover{
+    color: red;
+}
+
+
+.club-main{
+    height: 70vh;
+}
+
+.club-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.club-info{
+    width: 100%;
+    margin: auto 0;
+}
+
+.club-info h1{
+    word-spacing: -5px;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.club-info p{
+    font-size: 1.1rem;
+}
+
+.btn{
+    background-color: rgb(6, 6, 42);
+    padding: 0.8rem 1.2rem;
+    margin: 1rem 0;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.btn a{
+    font-weight: 400;
+    color:white;
+    font-size: 1.0rem;
+}
+
+.bg{
+    margin-top: -9rem;
+}
+
+.feature{
+    margin-top: -0.5rem;
+    background: #215896;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    color: white;
+}
+
+.features-main h1{
+    font-size: 3rem;
+    padding: 0rem 0rem 2rem;
+}
+
+.features-details{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.features-details ul{
+    color: white;   
+
+}
+
+.tab{
+    overflow: hidden;
+}
+
+.tab p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.features-details i{
+    font-size: 2.8rem;
+    color: rgba(40, 253, 48, 0.826);
+    padding:1rem;
+}
+
+.feat{
+    z-index: -10;
+    background-color: #f7f7f7;
+}
+
+.feat-logo h1{
+    font-size: 3.8rem;
+    padding: 8rem 0 4rem;
+}
+
+.feat-details{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 3rem 0rem 15rem;
+}
+
+.list{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feat-img{
+    width: 85%;
+}
+
+.feat-info{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.team{
+    z-index: 10;
+    box-shadow:5px 5px 15px 10px rgba(227, 210, 210, 0.184);
+}
+
+.team-logo h1{
+    margin-top: 2rem;
+    font-size: 3.4rem;
+    padding: 3rem 0;
+}
+
+.team-head{
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.team-members{
+    margin-bottom: 8rem;
+}
+
+.head-name{
+    margin-top: 1rem;
+}
+
+.head-img{
+    width: 300%;
+}
+
+.head-name h1{
+    font-size: 2.2rem;
+}
+
+.head-name h3{
+    color: rgba(14, 14, 14, 0.726);
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+}
+
+.team-list{
+    display: flex;
+    flex-direction: r   ow;
+    gap: 2rem;
+    flex-flow: row wrap;
+    position: relative;
+    width: 100%;
+}
+
+.team-info{
+    margin-bottom: 4rem;
+    width: 18rem;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    box-shadow:5px 5px 13px 10px rgba(227, 210, 210, 0.517);
+}
+
+.team-details{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.mem-details{
+    padding: 0.5rem 1rem 2rem;
+}
+
+.mem-details h1{
+    font-size: 1.6rem;
+}
+
+.mem-details p{
+    font-size: 1.1rem;
+}
+
+.mem-img img{
+    filter: grayscale();
+    transition: all 0.4s ease-in;
+}
+
+.mem-img img:hover{
+    filter: none;
+}
+
+.faq{
+    padding-bottom: 5rem;
+}
+
+.faq-list li {
+    border: 1px solid rgb(205, 205, 205);
+    padding: 18px 20px;
+    margin: 0px auto 30px;
+    text-align: left;
+    width: 100%;
+}
+
+
+.faq-list .faq-heading::before {
+    content: '+';
+    font-size: 40px;
+    display: block;
+    position: absolute;
+    right:0;
+    top: -15px;
+    color:#c2c2c2;
+
+}
+
+.faq-list .the-active .faq-heading::before {
+    content: '-';
+  
+}
+
+.faq-heading {
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    margin:0;
+}
+
+.faq-heading:hover {
+    color: var(--theme-color);
+}
+
+.faq-text {
+    display: none;
+}
+
+
+.art-box svg {
+  width:100%;
+}
+
+
+.row {
+  display:flex;
+}
+
+.row .col {
+  flex-basis: 40%;
+}
+.read {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+.faq{
+    /* background: #ffffff; */
+    background: rgba(245, 246, 246, 0.857);
+    color:black;
+    /* box-shadow:2px 2px 10px 10px rgba(174, 157, 157, 0.213); */
+    z-index: 500;
+}
+
+.faq-head h1{
+    font-size: 4rem;
+    padding: 3rem 0;
+}
