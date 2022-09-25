@@ -1,6 +1,6 @@
 
 .navbar{
-  /* background-color: #0478ede3; */
+  background-color: #ffffff;
   /* color: #ffff; */
   /* height: 90px;   */
   border-bottom-right-radius: 10px;
@@ -47,8 +47,8 @@
   content: '';
   right: 0;
   top: 0;
-  border-top: 3px solid #1c00456f;
-  border-right: 3px solid #1c00456f;
+  border-top: 3px solid #246dff;
+  border-right: 3px solid #246dff;
   transform: translate(-100%, 50%);
 }
 
@@ -56,8 +56,8 @@
   content: '';
   left: 0;
   bottom: 0;
-  border-bottom: 3px solid #1c00456f;
-  border-left: 3px solid #1c00456f;
+  border-bottom: 3px solid #002b82;
+  border-left: 3px solid #002b82;
   transform: translate(100%, -50%)
 }
 
@@ -160,6 +160,6 @@
     text-align: center;
   }
   .feat-img{
-    max-width: 100px;
+    max-width: 150px;
 
   }
