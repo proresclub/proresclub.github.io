@@ -19,20 +19,28 @@
 </head>
 
 <body id="theBody">
-	<div id="navbar" class="navbar navbar-expand-lg navbar-light sticky-top animate__animated animate__fadeInDown">
+	<div id="navbar"
+		class="navbar navbar-expand-lg navbar-light bg-light sticky-top animate__animated animate__fadeInDown">
 		<div class="container-fluid">
 			<!-- <span class="navbar-brand mb-0 h1">ProRes</span> -->
 			<a class="navbar-brand  animate__fadeInDown" style="padding: 0;" href="#">
 				<img src="sectionBGs/logo.png" alt="logo" height="60" />
 			</a>
 			<!-- <a class="navbar-brand" href="/index.html"></a> -->
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+				aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			<div class="collapse navbar-collapse" id="navbarText">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> -->
-					<li class="nav-item rounded" style="background-color: #4684ff;">
+					<li class="nav-item rounded d-none d-md-block" style="background-color: #4684ff;">
 						<!-- <button class=""> -->
 						<a style="font-size:medium; color: #ffffff;" class="nav-link " href="#">Join us!</a>
 						<!-- </button> -->
+					</li>
+					<li class="nav-item d-md-none">
+						<a class="nav-link " style="color:#4684ff ; text-decoration: underline;" href="#">Join us!</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link active" aria-current="page" href="#">Home</a>
