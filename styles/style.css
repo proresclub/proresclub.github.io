@@ -67,6 +67,19 @@
   opacity: 1;
 }
 
+/* Style for Latest News section */
+.card.shadow-sm {
+    background-color: transparent !important; /* Remove white background */
+    box-shadow: none; /* Optional: Remove shadow if not needed */
+}
+
+.card-text {
+    color: #000; /* Optional: Adjust text color for better visibility */
+    font-size: 1rem; /* Optional: Customize text size */
+    text-align: center; /* Center align the text */
+}
+
+
 /* .nav-link:hover {
   color: #1c00456f;
 } */
